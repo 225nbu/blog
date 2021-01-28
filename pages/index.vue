@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <div>
+      <Header/>
       <app-logo/>
       <h1 class="title">
         konbudn
@@ -17,10 +18,13 @@
 
 <script>
 import AppLogo from '~/components/AppLogo.vue'
+import sample from '~/components/sample.vue'
+import Header from '~/components/Header.vue'
 
 export default {
   components: {
-    AppLogo
+    AppLogo,
+    Header
   }
 }
 </script>
